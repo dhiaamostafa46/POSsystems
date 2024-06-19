@@ -1,0 +1,1670 @@
+@import url(old.css);
+/*Veriable part*/
+@font-face {
+	font-family: "Graphik-Regular";
+	src: url("../fonts/Graphik-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Regular.otf") format("opentype"), url("../fonts/Graphik-Regular.woff") format("woff"), url("../fonts/Graphik-Regular.ttf") format("truetype"), url("../fonts/Graphik-Regular.svg#Graphik-Regular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Graphik-Bold";
+	src: url("../fonts/Graphik-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Bold.otf") format("opentype"), url("../fonts/Graphik-Bold.woff") format("woff"), url("../fonts/Graphik-Bold.ttf") format("truetype"), url("../fonts/Graphik-Bold.svg#Graphik-Bold") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Graphik-Semibold";
+	src: url("../fonts/Graphik-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Semibold.otf") format("opentype"), url("../fonts/Graphik-Semibold.woff") format("woff"), url("../fonts/Graphik-Semibold.ttf") format("truetype"), url("../fonts/Graphik-Semibold.svg#Graphik-Semibold") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Graphik Arabic";
+	src: url("../fonts/GraphikArabic-Regular.eot");
+	src: url("../fonts/GraphikArabic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/GraphikArabic-Regular.woff2") format("woff2"), url("../fonts/GraphikArabic-Regular.woff") format("woff"), url("../fonts/GraphikArabic-Regular.ttf") format("truetype"), url("../fonts/GraphikArabic-Regular.svg#GraphikArabic-Regular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*=====NewFonts======*/
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-SuperItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-SuperItalic-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-SuperItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Super-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Super-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Super-Web {
+  font-family: 'Graphik Web';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-BlackItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-BlackItalic-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-BlackItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Black-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Black-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Black-Web {
+  font-family: 'Graphik Web';
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-BoldItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-BoldItalic-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-BoldItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Bold-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Bold-Web {
+  font-family: 'Graphik Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-SemiboldItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-SemiboldItalic-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-SemiboldItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  600;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Semibold-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Semibold-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Semibold-Web {
+  font-family: 'Graphik Web';
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-MediumItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-MediumItalic-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-MediumItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Medium-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Medium-Web {
+  font-family: 'Graphik Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-RegularItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-RegularItalic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-RegularItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Regular-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Regular-Web {
+  font-family: 'Graphik Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-LightItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-LightItalic-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-LightItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Light-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Light-Web {
+  font-family: 'Graphik Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-ExtralightItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-ExtralightItalic-Web.woff') format('woff');
+  font-weight:  200;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-ExtralightItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  200;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Extralight-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Extralight-Web.woff') format('woff');
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Extralight-Web {
+  font-family: 'Graphik Web';
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-ThinItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-ThinItalic-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-ThinItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Thin-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Thin-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Thin-Web {
+  font-family: 'Graphik Web';
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Super';
+  src: url('../fonts/GraphikArabic-Super-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Super-Web.woff') format('woff');
+  font-weight:  1000;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Super-Web {
+  font-family: 'Graphik Arabic Web Super';
+  font-weight:  1000;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Black';
+  src: url('../fonts/GraphikArabic-Black-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Black-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Black-Web {
+  font-family: 'Graphik Arabic Web Black';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Bold';
+  src: url('../fonts/GraphikArabic-Bold-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Bold-Web {
+  font-family: 'Graphik Arabic Web Bold';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Semibold';
+  src: url('../fonts/GraphikArabic-Semibold-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Semibold-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Semibold-Web {
+  font-family: 'Graphik Arabic Web Semibold';
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Medium';
+  src: url('../fonts/GraphikArabic-Medium-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Medium-Web {
+  font-family: 'Graphik Arabic Web Medium';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Regular';
+  src: url('../fonts/GraphikArabic-Regular-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Regular-Web {
+  font-family: 'Graphik Arabic Web Regular';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Light';
+  src: url('../fonts/GraphikArabic-Light-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Light-Web {
+  font-family: 'Graphik Arabic Web Light';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Extralight';
+  src: url('../fonts/GraphikArabic-Extralight-Web.woff2') format('woff2'),
+       url('../fonts/GraphikArabic-Extralight-Web.woff') format('woff');
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Extralight-Web {
+  font-family: 'Graphik Arabic Web Extralight';
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Arabic Web Thin';
+  src: url('GraphikArabic-Thin-Web.woff2') format('woff2'),
+       url('GraphikArabic-Thin-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikArabic-Thin-Web {
+  font-family: 'Graphik Arabic Web Thin';
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+/*Helper classes*/
+
+.right-to-left h1, .right-to-left h2, .right-to-left h3, .right-to-left h4, .right-to-left h5, .right-to-left h6 {
+  font-family: 'Graphik Arabic Web Black';
+  font-weight:  900;
+}
+.right-to-left p, .right-to-left a, .right-to-left span, .right-to-left input {
+  font-family: 'Graphik Arabic Web Regular';
+  font-weight:  400;
+}
+
+.img-icon-wrapper {
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.service-sec .img-icon-wrapper {
+	min-height: 125px;
+}
+
+.f18 {
+	font-size: 18px !important;
+}
+
+.f22 {
+	font-size: 22px;
+}
+
+.f16 {
+	font-size: 16px !important;
+}
+
+.f14 {
+	font-size: 14px !important;
+}
+
+.hide {
+	display: none;
+}
+
+.no-margin,
+#subscription #trackwrapper .track-input {
+	margin: 0 !important;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-75 {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 991px) {
+	.margin-bottom-75 {
+		margin-bottom: 75px;
+	}
+}
+
+.margin-bottom-50 {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 991px) {
+	.margin-bottom-50 {
+		margin-bottom: 50px;
+	}
+}
+
+.margin-right {
+	margin-right: 15px;
+}
+
+.margin-top {
+	margin-top: 15px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.modal-border {
+	border-color: #d8d3d3 !important;
+}
+
+.padding-top-75 {
+	padding-top: 30px;
+}
+
+@media (min-width: 991px) {
+	.padding-top-75 {
+		padding-top: 75px !important;
+	}
+}
+
+.margin-left {
+	margin-left: 15px;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.padding {
+	padding: 15px;
+}
+
+.padding-bottom {
+	padding-bottom: 15px;
+}
+
+.padding-top {
+	padding-top: 15px;
+}
+
+.no-padding-top {
+	padding-top: 0 !important;
+}
+
+.padding-top-50 {
+	padding-top: 25px;
+}
+
+@media (min-width: 991px) {
+	.padding-top-50 {
+		padding-top: 50px !important;
+	}
+}
+
+.padding-top-60 {
+	padding-top: 30px;
+}
+
+@media (min-width: 991px) {
+	.padding-top-60 {
+		padding-top: 60px !important;
+	}
+}
+
+.padding-right {
+	padding-right: 15px;
+}
+
+.padding-left {
+	padding-left: 15px;
+}
+
+.pos-relative {
+	position: relative;
+}
+
+.redText {
+	color: #EA0029;
+}
+
+.grey {
+	color: #a6a6a6;
+}
+
+.darkGrey {
+	background: #999999;
+}
+
+.darkColor,
+.a-darkColor a {
+	color: #535456;
+}
+
+.whiteColor {
+	color: #fff;
+}
+
+.greyBG {
+	background: #f2f2f2 !important;
+}
+
+	.greyBG.padding {
+		padding: 0 !important;
+	}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Graphik Web';
+	font-weight: 700;
+}
+
+.h4 {
+	font-family: 'Graphik Web';
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+h2.heading-animation {
+	font-size: 25px;
+	display: inline-block;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 0;
+	color: #EA0029;
+}
+
+	h2.heading-animation.f40 {
+		font-size: 22.72727px;
+	}
+
+@media (min-width: 768px) {
+	h2.heading-animation.f40 {
+		font-size: 40px;
+	}
+}
+
+h2.heading-animation.small {
+	font-size: 18px;
+}
+
+@media (min-width: 768px) {
+	h2.heading-animation.small {
+		font-size: 25px;
+	}
+}
+
+h2.heading-animation.animation-fixed:after {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	h2.heading-animation {
+		font-size: 50px;
+	}
+}
+
+h2.heading-animation:after {
+	position: absolute;
+	width: 0%;
+	bottom: -5px;
+	height: 5px;
+	background: #EA0029;
+	transition: width 0.5s;
+	content: "";
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 0;
+}
+
+h2.heading-animation:hover {
+	position: relative;
+	z-index: 9;
+}
+
+	h2.heading-animation:hover:after {
+		width: 100%;
+		opacity: 1;
+	}
+
+	h2.heading-animation:hover:after {
+		width: 100%;
+		opacity: 1;
+	}
+
+body {
+	font-size: 16px;
+	font-family: 'Graphik Web';
+}
+
+a,
+.btn-link,
+.a,
+a:hover,
+.a:hover {
+	color: #EA0029;
+}
+
+.collapse.show {
+	border: 1px solid #ddd;
+}
+
+.card-header {
+	background: #fff;
+}
+
+	.card-header button {
+		position: relative;
+	}
+
+		.card-header button:after {
+			content: "\f067";
+			display: inline-block;
+			font: normal normal normal 14px/1 FontAwesome;
+			font-size: inherit;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			color: #EA0029;
+			font-size: 25px;
+		}
+		.right-to-left .card-header button:after {
+			right: auto;
+			left: 0;
+		}
+.right-to-left .card-header button[aria-expanded="true"]:after {
+	right: auto;
+	left: 0;
+}
+	.card-header button[aria-expanded="true"]:after {
+			content: "\f068";
+			display: inline-block;
+			font: normal normal normal 14px/1 FontAwesome;
+			font-size: inherit;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			color: #EA0029;
+			font-size: 25px;
+		}
+
+#header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	padding-bottom: 15px;
+	transition:all ease-in-out 0.3s;
+}
+
+@media (min-width: 991px) {
+	#header .w-90 {
+		width: 90%;
+	}
+}
+
+#header.fixed.hover_static {
+	position: static;
+}
+
+#header:hover,
+#header.hover,
+#header.fixed.hover_static {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+	#header:hover .navbar-nav .nav-link,
+	#header:hover .search,
+	#header.hover .navbar-nav .nav-link,
+	#header.hover .search,
+	#header.fixed.hover_static .navbar-nav .nav-link,
+	#header.fixed.hover_static .search {
+		color: #a6a6a6;
+	}
+
+#header.hover {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:100;
+}
+
+@media (min-width: 991px) {
+	#header #navbarSupportedContent ul.navbar-nav {
+		position: relative;
+		top: 25px;
+	}
+}
+
+@media (min-width: 991px) {
+	#header .dropdown-menu {
+		left: -1rem;
+	}
+}
+
+#header .dropdown-menu ul li {
+	padding: 6px 0;
+	border-bottom: 1px solid #EA0029;
+}
+
+	#header .dropdown-menu ul li .dropdown-item {
+		padding: 0.15rem 1rem;
+	}
+
+	#header .dropdown-menu ul li:last-child {
+		border: none;
+	}
+
+#header .nav-item {
+	border-bottom: 8px solid transparent;
+	margin: 0 20px;
+}
+
+	#header .nav-item:after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0px;
+		background: #EA0029;
+		height: 5px;
+		width: 0;
+		transition: all 0.5s;
+	}
+
+	#header .nav-item:hover:after {
+		opacity: 1;
+		width: 100%;
+	}
+
+@media (min-width: 991px) {
+	#header .nav-link {
+		padding-bottom: 13px;
+	}
+}
+
+#header .navbar,
+#header .navbar-brand {
+	padding: 0rem;
+}
+
+@media (min-width: 991px) {
+	#header .navbar img,
+	#header .navbar-brand img {
+		height: 93px;
+	}
+}
+
+@media (max-width: 600px) {
+	#header .navbar img,
+	#header .navbar-brand img {
+		max-width: 100px;
+	}
+}
+
+@media (max-width: 991px) {
+	#header .navbar-nav {
+		align-items: flex-start !important;
+	}
+}
+
+#header .navbar-nav .nav-link {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+.right-to-left #header .navbar-nav .nav-link {
+	font-weight: 500;
+	font-family: 'Graphik Arabic Web Medium';
+}
+#header .search {
+	color: #fff;
+	cursor: pointer;
+}
+
+@media (max-width: 991px) {
+	#header .search {
+		display: none;
+	}
+}
+
+@media (min-width: 991px) {
+	#header .search {
+		position: relative;
+		top: -6px;
+		margin-left: auto;
+	}
+	.right-to-left #header .search {
+		margin-right: auto;
+		margin-left:0px;
+	}
+}
+
+@media (max-width: 991px) {
+	#header .social-link-top {
+		text-align: left !important;
+		border-top: 1px solid #a6a6a6;
+		border-bottom: 1px solid #a6a6a6;
+		padding: 15px;
+		margin-top: 15px;
+		background: #fafafa;
+	}
+}
+
+#header .social-link-top a {
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 22px;
+}
+.right-to-left #header .social-link-top a { 
+	padding-left:0px;
+}
+
+.panel {
+	padding: 30px 0;
+	background: #fff;
+}
+
+	.panel .container {
+		position: relative;
+		z-index: 1;
+	}
+
+		/*.panel .container [class*="col-"] {
+			background: #fff;
+		}*/
+
+#Contact-form [class*="col-"],
+#numberSection [class*="col-"] {
+	background: none;
+}
+
+.news {
+	position: relative;
+	z-index: 1;
+}
+
+.pos-button-wrapper {
+	padding-bottom: 45px !important;
+	position: relative;
+}
+
+.button {
+	background: #EA0029;
+	border-radius: 0;
+	padding: 7px 15px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 0px;
+	transition: all ease-in-out 0.3s;
+	min-width: 152px;
+	text-align: center;
+	min-height: 36px;
+}
+
+	.button:hover {
+		background: #999999;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.button.pos-button {
+		position: absolute;
+		left: 15px;
+		bottom: 15px;
+	}
+
+#video-banner {
+	position: relative;
+	overflow: hidden;
+}
+
+	#video-banner .pos-container {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		height: 100%;
+		transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+	}
+
+	#video-banner #bannerText {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		left: 15px;
+	}
+.right-to-left #video-banner #bannerText {
+	right: 0px;
+}
+
+		#video-banner #bannerText h4,
+		#video-banner #bannerText h5 {
+			color: #fff;
+			font-size: 31.5px;
+		}
+
+@media (min-width: 768px) {
+	#video-banner #bannerText h4,
+	#video-banner #bannerText h5 {
+		font-size: 63px;
+	}
+}
+
+#video-banner #bannerText h5 {
+	color: #EA0029;
+}
+
+#trackShipment,
+#subscription {
+	padding: 2px;
+	position: relative;
+	background: #EA0029;
+	padding: 30px 0;
+}
+
+	#trackShipment h4,
+	#subscription h4 {
+		font-size: 25px;
+		color: #fff;
+		margin-bottom: 15px;
+	}
+
+@media (min-width: 768px) {
+	#trackShipment h4,
+	#subscription h4 {
+		font-size: 50px;
+	}
+}
+
+#trackShipment .track_bg,
+#subscription .track_bg {
+	background: url("Images/trackshhipment_bg.png") left center repeat;
+}
+
+#trackShipment #trackwrapper,
+#subscription #trackwrapper {
+	padding: 0px;
+	display: flex;
+	background: #fff;
+}
+
+.right-to-left #trackShipment #trackwrapper,
+.right-to-left #subscription #trackwrapper {
+	background: #eb3200;
+}
+	#trackShipment #trackwrapper .track-input,
+	#subscription #trackwrapper .track-input {
+		width: calc(100% - 150px);
+		margin-bottom: 7.5px;
+		border: none;
+		outline: none;
+		padding: 10px 15px;
+		font-size: 30px;
+	}
+
+	#trackShipment #trackwrapper .track-button,
+	#subscription #trackwrapper .track-button {
+		color: #fff;
+		padding: 7.5px 15px;
+		width: 150px;
+		background: #EA0029;
+		border: none;
+		font-size: 20px;
+		margin-left: 2px;
+	}
+
+@media (min-width: 768px) {
+	#trackShipment #trackwrapper .track-button,
+	#subscription #trackwrapper .track-button {
+		font-size: 30px;
+	}
+}
+
+#bg-service {
+	padding: 1px 0;
+	background: #fff url("../Images/services_3.png") center 99% no-repeat;
+	background-size: 95%;
+}
+
+	#bg-service .panel {
+		background: none;
+	}
+
+footer {
+	background: #fff;
+	margin-top:20px;
+}
+
+#services {
+	position: relative;
+	/*&:after {
+        @include r-min(768) {
+            content: "";
+            width: 206px;
+            height: 124px;
+            left: 0;
+            position: absolute;
+            background: url('../Images/services_1.png') center center no-repeat;
+            top: 10px;
+        }
+    }
+
+    &:before {
+        @include r-min(768) {
+            content: "";
+            top: 0;
+            width: 158px;
+            height: 422px;
+            right: 20px;
+            position: absolute;
+            background: url('../Images/services_2.png') center center no-repeat;
+        }
+    }*/
+}
+
+	#services marquee {
+		position: absolute;
+		top: 0;
+		z-index: 1;
+		left: 0;
+		width: 100%;
+	}
+
+@media (max-width: 768px) {
+	#services {
+		text-align: center;
+	}
+}
+
+#services p {
+	color: #a6a6a6;
+}
+
+#services button {
+	background: none;
+	border: none;
+	margin-bottom: 30px;
+}
+
+#numberSection {
+	background: #EA0029;
+	color: #fff;
+}
+
+	#numberSection .big-number {
+		font-size: 30px;
+	}
+
+@media (min-width: 768px) {
+	#numberSection .big-number {
+		font-size: 50px;
+	}
+}
+
+#numberSection .small-number {
+	font-size: 18px;
+}
+
+#CompanySide .img-overlay {
+	position: absolute;
+	z-index: 9;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#CompanySide .pos-relative {
+	margin-bottom: 15px;
+}
+
+#CompanySide .company-content {
+	position: absolute;
+	left: 0;
+	padding: 5%;
+	bottom: 0;
+	z-index: 10;
+}
+
+	#CompanySide .company-content h4 {
+		font-size: 25px;
+		color: #fff;
+	}
+
+@media (min-width: 768px) {
+	#CompanySide .company-content h4 {
+		font-size: 35px;
+	}
+}
+
+#MediaCenter {
+	background: url("../Images/mediacenter_bg.jpg") center center repeat;
+}
+
+	#MediaCenter .greybg {
+		background: #999999 !important;
+		padding: 0;
+	}
+
+	#MediaCenter .media-wrapper-content {
+		background: #999999;
+		padding: 15px;
+		color: #fff;
+	}
+
+		#MediaCenter .media-wrapper-content p[dir="rtl"] {
+			font-family: 'Graphik Arabic Web Regular';
+		}
+
+#subscription {
+	padding: 25px 0 10px 0;
+}
+
+	#subscription #trackwrapper .track-button {
+		background: #999999;
+		color: #fff;
+		width: 200px;
+		font-size: 18px;
+	}
+
+	#subscription #trackwrapper .track-input {
+		width: calc(100% - 200px);
+		font-size: 18px;
+	}
+
+.copy-right .bottom-footer-link {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	justify-content: center;
+}
+
+@media (min-width: 991px) {
+	.copy-right .bottom-footer-link {
+		display: flex;
+	}
+}
+
+@media (min-width: 991px) {
+	.copy-right .bottom-footer-link li {
+		border-left: 1px solid #EA0029;
+	}
+}
+
+.copy-right .bottom-footer-link li:first-child {
+	border: none;
+}
+
+.copy-right .bottom-footer-link li a {
+	color: #999999;
+	padding: 0 45px;
+}
+
+.navbar-nav .carrot {
+	display: none;
+}
+
+.navbar-nav ul.dropdown-menu li,
+.navbar-nav ul.dropdown-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav .dropdown-toggle::after {
+	display: none;
+}
+
+.navbar-nav .dropdown-menu {
+	min-width: 200px;
+	margin-bottom: 20px;
+}
+.right-to-left .navbar-nav .dropdown-menu {
+	min-width: 260px;
+	right: 0;
+}
+
+@media (min-width: 991px) {
+	.navbar-nav .dropdown-menu {
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	}
+}
+
+.navbar-nav .nav-item.dropdown:hover > ul {
+	display: block;
+}
+
+.navbar-nav .dropdown-item:focus,
+.navbar-nav .dropdown-item:hover,
+.navbar-nav .menu-selected > .dropdown-item {
+	background: #EA0029 !important;
+	color: #fff !important;
+}
+
+.navbar-nav .menu-selected > a {
+	color: #000 !important;
+	font-weight: bold;
+}
+
+.left-panel-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 25px;
+}
+
+@media (min-width: 991px) {
+	.left-panel-nav {
+		padding-top: 50px;
+	}
+}
+
+.left-panel-nav li {
+	list-style: none;
+	padding-left: 15px;
+	border-bottom: 2px solid #EA0029;
+	position: relative;
+}
+
+	.left-panel-nav li.active i,
+	.left-panel-nav li.active a,
+	.left-panel-nav li.active span,
+	.left-panel-nav li.active span:after {
+		color: #000;
+		font-weight: bold;
+	}
+
+	.left-panel-nav li .plus-minus {
+		cursor: pointer;
+	}
+
+		.left-panel-nav li .plus-minus:after {
+			position: absolute;
+			left: 5px;
+			top: 50%;
+			transform: translateY(-50%);
+			background: url("../Images/plus.png") left top no-repeat;
+			background-size: 100%;
+			width: 20px;
+			height: 20px;
+			content: "";
+		}
+
+		.left-panel-nav li .plus-minus.minus:after {
+			background: url("../Images/minus.png") left top no-repeat;
+			background-size: 100%;
+		}
+
+	.left-panel-nav li a {
+		color: #a6a6a6;
+		padding: 5px 15px;
+		display: block;
+	}
+
+.left-panel-nav ul.inner {
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+
+	.left-panel-nav ul.inner.left-nav-show {
+		display: block !important;
+	}
+
+	.left-panel-nav ul.inner li a {
+		padding-left: 0;
+	}
+
+		.left-panel-nav ul.inner li a:after {
+			display: none;
+		}
+
+.list-style {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.inner-img-wrapper .title {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	font-size: 34px;
+	background: rgba(235, 51, 0, 0.9);
+	color: #fff;
+	font-family: 'Graphik Web';
+	margin: 0;
+	z-index: 10;
+}
+
+@media (min-width: 991px) {
+	.inner-img-wrapper .title {
+		font-size: 25px;
+	}
+}
+
+.brdcrumb {
+	background: #EA0029;
+}
+
+	.brdcrumb .breadcrumb {
+		background: none;
+		border: none;
+	}
+
+@media (min-width: 991px) {
+	.brdcrumb .breadcrumb {
+		padding-left: 0 !important;
+	}
+}
+
+.brdcrumb .breadcrumb a {
+	color: #fff;
+}
+
+.brdcrumb .breadcrumb-item + .breadcrumb-item::before,
+.brdcrumb .breadcrumb-item.active {
+	color: #fff;
+}
+
+.img-container {
+	max-height: 200px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+}
+
+#map-canvas {
+	height: 550px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.lowGutter [class*="col-"] {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.img img {
+	max-width: 100%;
+}
+
+.navbar-nav .nav-item:nth-last-of-type(1) ul {
+	right: 0;
+	left: inherit;
+}
+
+#searchContainer {
+	z-index: 11;
+}
+
+	#searchContainer form {
+		margin: 0;
+	}
+
+@media (max-width: 991px) {
+	#searchContainer {
+		display: block !important;
+	}
+
+		#searchContainer .search-close {
+			display: none;
+		}
+}
+
+@media (min-width: 991px) {
+	#searchContainer {
+		padding: 15px;
+		position: absolute;
+		top: 92%;
+		background: #fff;
+		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+		right: 0;
+	}
+	.right-to-left #searchContainer {
+		right: auto;
+		left: 0;
+	}
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "|";
+}
+
+@media (max-width: 991px) {
+	.sitemap-details > ul {
+		columns: 1;
+		-webkit-columns: 1;
+		-moz-columns: 1;
+	}
+}
+
+.Sal-video-banner {
+	width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	z-index: 999;
+}
+
+@media (min-width: 991px) {
+	.MSGTextarea {
+		height: 270px !important;
+	}
+}
+
+@media (min-width: 991px) {
+	.MSGTextarea1 {
+		height: 225px !important;
+	}
+}
+
+.slick-slide:hover .img-overlay {
+	opacity: 0.4;
+}
+
+.location-details p:empty {
+	display: none;
+}
+
+.location-details ul {
+	margin-bottom: 20px !important;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+	padding-left: 24px;
+	color:#fff;
+}
+
+	.breadcrumb-item + .breadcrumb-item::before {
+		padding-right: 18px;
+	}
+
+@media (min-width: 991px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.calander-img img {
+	margin-right: 15px;
+}
+
+.bg-Img {
+	display: none;
+	left: 0;
+	position: absolute;
+	transform: translateY(-100%);
+}
+
+@media (min-width: 991px) {
+	.bg-Img.fix {
+		display: none !important;
+	}
+}
+
+#home-animation {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #EA0029;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+}
+
+.card-header h2 .btn {
+	font-size: 20px !important;
+}
+.right-to-left span, .right-to-left p, .right-to-left li, .right-to-left a, .right-to-left input, .right-to-left button {
+    font-family: 'Graphik Arabic Web Regular';
+    font-weight: 400;
+}
